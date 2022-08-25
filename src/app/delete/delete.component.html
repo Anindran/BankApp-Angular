@@ -1,0 +1,8 @@
+<div *ngIf="item"  >
+    <div class="dltdiv">
+        Do you want to delete account {{item}}?
+        <br>
+        <button (click)="delete()" class="btn btn-success">Yes</button>
+        <button (click)="cancel()" class="btn btn-primary">No</button>
+    </div>
+</div>
